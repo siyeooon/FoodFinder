@@ -1,8 +1,5 @@
 
-![header](https://capsule-render.vercel.app/api?type=rounded&text=미디어%20프로젝트%2023-2&fontSize=40&color=A3DCBE&fontColor=000000
-)
-
-
+## 미디어 프로젝트 23-2
 
 ![Group 67](https://github.com/siyeooon/FoodFinder/assets/108517376/568d5855-990b-4056-9ddc-d793ab181c73)
 
