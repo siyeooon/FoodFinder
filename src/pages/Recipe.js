@@ -10,12 +10,12 @@ const Recipe = () => {
       instructions:
         "Cook spaghetti. In a bowl, mix eggs, pancetta, pepper, and Parmesan. Mix with cooked spaghetti.",
     },
-    // Add more recipes as needed
+    // 레시피 추가하기
   ];
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-semibold mb-4">Recipe</h1>
+      <h1 className="text-3xl font-semibold mb-4">레시피</h1>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {recipes.map((recipe, index) => (
           <RecipeCard key={index} {...recipe} />

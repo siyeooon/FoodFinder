@@ -30,7 +30,7 @@ const TopNav = () => {
             레시피
           </Link>
           <Link
-            to="/Stuff"
+            to="/Ingredient"
             className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
           >
             내 재료
@@ -81,7 +81,7 @@ const TopNav = () => {
           </h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-900">
-              <li className="font-light font-['pretendard'] text-lg py-4 flex">
+              <li className="font-light font-['pretendard'] text-lg py-4 flex ">
                 <BsPerson
                   onClick={() => navigate("/login")}
                   size={25}

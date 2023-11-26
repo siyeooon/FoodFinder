@@ -22,8 +22,8 @@ const TopPicks = () => {
                       <p className="font-['pretendard'] px-2 pt-4 font-bold text-base lg:text-2xl ">
                         {item.title}
                       </p>
-                      <div className="flex justify-end px-3 pt-4">
-                        <p className="font-['pretendard'] bg-green-600 h-15 w-15 rounded-full text-white px-4 py-2 border-6 absolute">
+                      <div className="hidden md:flex justify-end px-3 pt-4">
+                        <p className="font-['pretendard'] bg-green-600 h-15 w-15 rounded-full text-white px-4 py-2 border-6 absolute ">
                           {item.time}
                         </p>
                       </div>
