@@ -7,6 +7,7 @@ import Recipe from "./pages/Recipe";
 import Community from "./pages/Community";
 import Ingredient from "./pages/Ingredient";
 import Post from "./pages/Post";
+import RecipePost from "./pages/RecipePost";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Recipe" element={<Recipe />} />
+          <Route path="/Recipe/:recipeId" element={<RecipePost />} />
           <Route path="/Community" element={<Community />} />
           <Route path="/post/:postId" element={<Post />} />
           <Route path="/Login" element={<Login />} />

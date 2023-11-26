@@ -1,11 +1,17 @@
 // src/components/RecipeCard.js
 import React from "react";
 
-const RecipeCard = ({ title, ingredients, instructions }) => {
+const RecipeCard = ({ title, ingredients, instructions, image }) => {
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div className="container mx-auto max-w-md bg-white overflow-hidden md:max-w-2xl">
       <div className="md:flex">
-        <div className="md:flex-shrink-0">{/* Recipe Image */}</div>
+        <div className="justify-start">
+          <img
+            src={image}
+            alt="음식 이미지"
+            className="w-full g-60 md:h-64 object-cover "
+          />
+        </div>
         <div className="p-8">
           <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
             Recipe
