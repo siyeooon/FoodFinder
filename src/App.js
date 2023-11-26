@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Recipe from "./pages/Recipe";
 import Community from "./pages/Community";
+import RecipeDetail from "./pages/RecipeDetail";
 
 function App() {
   let component;
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Recipe" element={<Recipe />} />
+          <Route path="/Recipe/:title" element={<RecipeDetail />} />
           <Route path="/Community" element={<Community />} />
           <Route path="/SignUp" element={<SignUp />} />
         </Routes>
